@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book3Activity" android:padding="@dimen/_24sdp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_5sdp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="24dp"
+            app:cardBackgroundColor="#ebebeb"
+            app:cardCornerRadius="15dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="@dimen/_24sdp"
+                    android:src="@drawable/book_3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:layout_width="@dimen/_180sdp"
+                        android:layout_height="wrap_content"
+                        android:numStars="4"
+                        android:progressBackgroundTint="#AAA78F"
+                        android:progressTint="#D5C333"
+                        android:rating="2"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:stepSize="1.0"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="50 Algorithms Every Programmer Should Know - Second Edition"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="By Imran Ahmad"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="September 2023"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="The ability to use algorithms to solve real-world problems is a must-have skill for any developer or programmer. This book will help you not only to develop the skills to select and use an algorithm to tackle problems in the real world but also to understand how it works. You'll start with an introduction to algorithms and discover various algorithm design techniques, before exploring how to implement different types of algorithms, with the help of practical examples. As you advance, you'll learn about linear programming, page ranking, and graphs, and will then work with machine learning algorithms to understand the math and logic behind them. Case studies will show you how to apply these algorithms optimally before you focus on deep learning algorithms and learn about different types of deep learning models along with their practical use. You will also learn about modern sequential models and their variants, algorithms, methodologies, and architectures that are used to implement Large Language Models (LLMs) such as ChatGPT. Finally, you'll become well versed in techniques that enable parallel processing, giving you the ability to use these algorithms for compute-intensive tasks. By the end of this programming book, you'll have become adept at solving real-world computational problems by using a wide range of algorithms."
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

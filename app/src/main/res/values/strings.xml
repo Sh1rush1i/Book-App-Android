@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RiansyahSetiawan</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="image_splash">Image_Splash</string>
+    <string name="list">List</string>
+    <string name="info">Info</string>
+    <string-array name="subscribe_array">
+        <item>Free</item>
+        <item>Subscribe</item>
+        <item>Subscribe Pro</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="ruby">This book provides a comprehensive guide to the Ruby programming language, designed specifically for beginners looking to grasp the fundamentals of programming to professionals seeking to refine their skills. The author introduces readers to the simple and expressive syntax of Ruby, allowing them to understand basic concepts such as variables, flow control, and functions. \n\n Using a learn-by-doing approach, the book offers a variety of practical projects that enable readers to apply their knowledge directly. From web development with Ruby on Rails to database management with ActiveRecord, readers will gain insights into the Ruby ecosystem.</string>
+    <string name="python">This book serves as a comprehensive guide to the Python programming language, catering to individuals ranging from beginners seeking an introduction to programming to seasoned professionals looking to enhance their Python proficiency. The author navigates readers through Pythons clear and readable syntax, covering fundamental concepts such as variables, control flow, and functions. \n \n Employing a hands on approach, the book features practical exercises and projects that enable readers to apply their knowledge in real world scenarios. From basic scripting to advanced topics like web development with Django and data science with Pandas, readers will gain a well rounded understanding of Pythons versatility.</string>
+    <string name="fisty">Every proficient programmer should possess a foundational understanding of essential algorithms that underpin various computational tasks. These algorithms form the bedrock of problem solving and are instrumental in designing efficient solutions. Among these, Binary Search stands out for its efficiency in locating items in sorted lists. QuickSort and MergeSort are indispensable for sorting data rapidly through divide-and-conquer methodologies. Bubble Sort, although straightforward, imparts a fundamental understanding of sorting principles. Graph traversal algorithms, including Depth-First Search (DFS) and Breadth-First Search (BFS), are crucial for navigating and exploring graph structures. Dynamic Programming provides a powerful approach to solving intricate problems by breaking them down into more manageable subproblems. Dijkstras Algorithm and A Algorithm are indispensable for pathfinding in graphs, ensuring optimal routes are discovered. Hashing techniques, exemplified by Hash Tables and Hash Maps, facilitate swift data retrieval. Additionally, an appreciation for Greedy Algorithms, which make locally optimal choices to approach a global optimum, rounds out a programmers repertoire. Beyond these ten, numerous other algorithms and data structures contribute to a programmers proficiency, including tree traversal algorithms, graph algorithms, heaps, tries, and linked lists. A well rounded grasp of these algorithms equips programmers with the tools to tackle diverse computational challenges effectively.</string>
+</resources>
