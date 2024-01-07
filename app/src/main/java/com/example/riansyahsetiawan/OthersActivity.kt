@@ -3,6 +3,7 @@ package com.example.riansyahsetiawan
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
@@ -27,6 +28,13 @@ class OthersActivity  : AppCompatActivity() {
             val view = layoutInflater.inflate(R.layout.bottomsheetview, null)
             dialog.setContentView(view)
             dialog.show()
+        }
+
+        val backBtn = findViewById<ImageView>(R.id.backBtn)
+        backBtn.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
         val namanama = arrayOf<String>(
